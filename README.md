@@ -3,7 +3,7 @@
 This repository contains the source code for my personal portfolio website. It is a static site built to host and display details regarding my projects, technical skills, and coursework. The site features a clean, professional interface and is fully responsive across all device sizes.
 
 ## 🌐 Live Demo
-Check out the live website: **[ramalingam-n.github.io/Portfolio](https://ramalingam-n.github.io/portfolio-black-and-white/)**
+Check out the live website: **[ramalingam-n.github.io/Portfolio](https://ramalingam-n.github.io/portfolio/)**
 
 ## 🛠️ Built With
 - **HTML5 & CSS3**: Structured with semantic tags and styled with modern CSS features (Flexbox, AOS, Clamp for responsive typography).
@@ -41,4 +41,5 @@ Modify this project for your use:
 
 ## 📁 Structure
 - `index.html` - The main entry point and structure of the site.
+
 - `image/` - Contains images, logo and the profile photo.
