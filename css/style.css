@@ -20,7 +20,7 @@
 }
 
 html {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
     font-size: 16px; /* Base for rem, will use clamp for responsiveness */
 }
 body {
@@ -92,7 +92,6 @@ nav.navbar {
     width: fit-content;
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;
     margin-top: 2rem;
 }
 .greet {
@@ -160,22 +159,7 @@ nav.navbar {
 .front-page-img img:hover {
     transform: scale(1.02);
 }
-/* .scroll-indicator {
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2rem;
-    height: 2rem;
-    border: 2px solid var(--text-secondary);
-    border-radius: 50%;
-    animation: bounce 1.4s infinite;
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-    40% { transform: translateX(-50%) translateY(-10px); }
-    60% { transform: translateX(-50%) translateY(-5px); }
-} */
+
 /* About Section */
 .about-section {
     padding: 0rem 3rem;
